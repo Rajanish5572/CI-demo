@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs: 
-  linting
+  linting:
     runs-on: ubuntu-latest
 
     steps:
